@@ -32,4 +32,4 @@ streamlit run dashboard.py
 ## Website
 kunjungi website [Project Analisis Data](https://dashboardpy-kvcvpasxcuhc8fpntu9ayq.streamlit.app/)
 
-<img src="D:\MAIN2\Analisis Data Dicoding\Dashboard-ss.png" alt="Streamlit logo"></img>
+<img src="Dashboard-ss.png" alt="Streamlit SS"></img>
