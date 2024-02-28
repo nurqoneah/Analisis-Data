@@ -11,7 +11,7 @@ Pada proyek akhir ini dipilih dataset E-Commerce Public Dataset sebagai data yan
 ## Clone repository
 
 ```
-
+git clone https://github.com/nurqoneah/Analisis-Data.git
 ```
 
 ## Setup environment
@@ -30,12 +30,6 @@ streamlit run dashboard.py
 ```
 
 ## Website
-
-```
-kunjungi website [Project Analisis Data](https://dicoding-tjan2lwsgz3l97a447szqk.streamlit.app/)
+kunjungi website [Project Analisis Data](link)
 
 <img src="D:\MAIN2\Analisis Data Dicoding\Dashboard-ss.png" alt="Streamlit logo"></img>
-
-
-
-```
