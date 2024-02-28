@@ -116,7 +116,7 @@ class Map:
     
 
 
-geolocation_df = pd.read_csv('geolocation_dataset.csv')
+geolocation_df = pd.read_csv('\Dashboard\geolocation_dataset.csv')
 # geolocation = geolocation_df.drop_duplicates(subset='customer_unique_id')
 
 all_df = pd.read_csv("data_df.csv")
