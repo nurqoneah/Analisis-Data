@@ -116,9 +116,9 @@ class Map:
 
 
 
-geolocation_df = pd.read_csv('./geolocation_dataset.csv')
+geolocation_df = pd.read_csv('geolocation_dataset.csv')
 
-all_df = pd.read_csv("./data_df.csv")
+all_df = pd.read_csv("data_df.csv")
 datetime_columns = ["shipping_limit_date", "review_creation_date","review_answer_timestamp","order_purchase_timestamp","order_approved_at","order_delivered_carrier_date","order_delivered_customer_date","order_estimated_delivery_date"]
 all_df.sort_values(by="order_approved_at", inplace=True)
 all_df.reset_index(inplace=True)
