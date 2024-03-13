@@ -17,7 +17,7 @@ class Visualization:
 
     
     def create_monthly_orders_df(df):
-        monthly_orders_df = df.df.resample(rule='M', on='order_approved_at').agg({
+        monthly_orders_df = df.df.resample(rule='ME', on='order_approved_at').agg({
             "order_id": "nunique"
         })
         monthly_orders_df = monthly_orders_df.reset_index()
@@ -30,7 +30,7 @@ class Visualization:
     
 
     def create_yearly_orders_df(df):
-        yearly_orders_df = df.df.resample(rule='Y', on='order_approved_at').agg({
+        yearly_orders_df = df.df.resample(rule='YE', on='order_approved_at').agg({
             "order_id": "nunique"
         })
         yearly_orders_df.index = yearly_orders_df.index.strftime('%Y')
@@ -264,6 +264,7 @@ colors = ["#D3D3D3", "#D3D3D3", "#D3D3D3", "#D3D3D3", "#72BCD4"]
 sns.barplot(
     y="customer_count", 
     x="review_score",
+    hue="customer_count",
     data=by_review_df,
     palette=colors,
     ax=ax
